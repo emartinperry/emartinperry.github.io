@@ -1,0 +1,249 @@
+/*
+Theme Name: Martin Perry
+Theme URI: http://www.twigdesignco.com
+Author: Twig Design
+Author URI: http://www.twigdesignco.com
+
+*/
+
+
+
+/* Begin Typography & Colors */
+
+
+@font-face {
+	font-family: 'Conv_DINNextLTPro-MediumCond';
+	src: url('fonts/DINNextLTPro-MediumCond.eot');
+	src: local('☺'), url('fonts/DINNextLTPro-MediumCond.woff') format('woff'), url('fonts/DINNextLTPro-MediumCond.ttf') format('truetype'), url('fonts/DINNextLTPro-MediumCond.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Helvetica, Arial;
+	color: #fff;
+	text-align: left;
+	background-color: #000000;
+	}
+	
+#img.bg {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -999;
+}	
+
+img, img a{
+border: 0px;
+}
+
+
+
+#logo{
+width: 509px;
+height: 115px;
+position: absolute;
+left: 25px;
+top:25px;
+}
+
+#quote{
+background: url(images/quotesmaller.png) no-repeat;
+width: 156px;
+height: 63px;
+position: absolute;
+right: 0px;
+top:25px;
+}
+
+/* BASIC STYLES */
+
+p{
+margin: 5px 0;
+}
+
+a{
+color: #fff;
+text-decoration: none;
+}
+
+h2{
+margin: 0 0 10px 0;
+padding: 0 0; 
+
+}
+
+h2 a{
+color: #d2232a;
+font-size: 12px;
+font-weight: bold;
+font-family: Helvetica, arial;
+text-decoration: none;
+}
+
+h3 {
+margin: 5px 0 0px 0;
+padding: 0 0; 
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+font-family: Helvetica, arial;
+text-decoration: none;
+}
+
+.alignleft{
+float: left;
+}
+.alignright{
+float: right;
+}
+
+.storytitle {
+color: #d2232a;
+text-decoration: none;
+font-family: Helvetica, Arial;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 6px;
+}
+
+/* NAVIGATION */
+
+#nav{
+height: 260px;
+position: absolute;
+top: 130px;
+right: 250px;
+border-left: 1px solid #fff;
+z-index: 999;
+}
+
+#nav ul{
+margin: 0 0;
+padding: 0 0 0 10px;
+}
+
+#nav ul li{
+list-style: none;
+}
+
+
+#nav ul li a{
+display: block;
+width: 170px;
+height: 35px;
+font-size: 35px;
+padding-bottom: 5px;
+color: #d2232a;
+text-transform: uppercase;
+font-weight: bold;
+font-family: 'Conv_DINNextLTPro-MediumCond', sans;
+}
+#nav ul li a:hover, #nav ul li.current-menu-item a{
+color: #ffffff !important;
+}
+/*
+
+#nav ul li.news a.newshover{
+background: url(images/nav_red.png) 0px 0px no-repeat;
+}
+
+#nav ul li.news a.newshover:hover {
+background: url(images/nav_grey.png) 0px 0px no-repeat;
+}
+
+#nav ul li.news a.newshover.active { 
+background: url(images/nav_white.png) 0px 0px no-repeat;
+}
+
+#nav ul li.news a.clicknews  { 
+background: url(images/nav_white.png) 0px 0px no-repeat;
+}
+
+
+
+#nav ul li.calendar a.calendarhover{
+background: url(images/nav_red.png) 0px -50px no-repeat;
+}
+
+#nav ul li.calendar a.calendarhover:hover {
+background: url(images/nav_grey.png) 0px -50px no-repeat;
+}
+
+#nav ul li.calendar a.calendarhover.active {
+background: url(images/nav_white.png) 0px -50px no-repeat;
+}
+
+#nav ul li.calendar a.clickcalendar {
+background: url(images/nav_white.png) 0px -50px no-repeat;
+}
+
+
+
+
+
+
+#nav ul li.contact a.contacthover{
+background: url(images/nav_red.png) 0px -98px no-repeat;
+}
+#nav ul li.contact a.contacthover:hover {
+background: url(images/nav_grey.png) 0px -98px no-repeat;
+}
+
+
+#nav ul li.contact a.contacthover.active {
+background: url(images/nav_white.png) 0px -98px no-repeat;
+}
+
+#nav ul li.contact a.clickcontact{
+background: url(images/nav_white.png) 0px -98px no-repeat;
+}
+
+
+#nav ul li.sponsor a.sponsorhover{
+background: url(images/nav_red.png) 0px -146px no-repeat;
+}
+#nav ul li.sponsor a.sponsorhover:hover {
+background: url(images/nav_grey.png) 0px -146px no-repeat;
+}
+
+#nav ul li.sponsor a.sponsorhover.active {
+background: url(images/nav_white.png) 0px -146px no-repeat;
+}
+
+#nav ul li.sponsor a.clicksponsor {
+background: url(images/nav_white.png) 0px -146px no-repeat;
+}
+
+*/
+/* BODY */
+
+#content{
+width: 233px;
+height: 651px;
+position: absolute;
+right: 0px;
+top: 130px;
+border-left: 1px solid #fff;
+padding: 0px 10px;
+}
+
+.entry{
+border-top: 1px solid #fff;
+margin-bottom: 10px;
+}
+
+.homeentry{
+margin-top: -9px;
+}
+
+.newsentry{
+border-top: 1px solid #fff;
+margin-bottom: 10px;
+margin-top: -6px;
+}
